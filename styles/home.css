@@ -5,3 +5,12 @@
 .bi-palette{
     color: orange;
 }
+
+.cards{
+    padding-top: 1rem;
+}
+
+.icon-link-hover{
+    color: orange;
+    text-decoration: none;
+}
