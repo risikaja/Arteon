@@ -5,12 +5,28 @@
 .bi-palette{
     color: orange;
 }
+/*Carousel section*/
+.carousel-caption h1, p {
+    color: black;
+}
 
 .cards{
     padding-top: 1rem;
 }
 
+
+
 .icon-link-hover{
     color: orange;
     text-decoration: none;
+}
+/*Hero section background color*/
+.hero-section{
+    background-color: #f3f3f3;
+    width: 100%;  
+}
+
+.footer{
+    background-color: #f3f3f3;
+    width: 100%; 
 }
