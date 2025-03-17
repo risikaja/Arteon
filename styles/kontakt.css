@@ -1,0 +1,118 @@
+/* Contact section */
+.google-map {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-container {
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.form-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.form-container h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.contact-form {
+    display: grid;
+    row-gap: 1rem;
+    width: 97%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 95.5%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: #dbd9d9;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.contact-form .send-button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+    background: red;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    color: white;
+}
+
+.contact-form .send-button:hover {
+    background: rgb(255, 81, 81);
+    transition: 0.3s all linear;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 964px) {
+    .contact-container {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .form-container h3{
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .map iframe {
+        height: 400px;
+    }
+    .google-map {
+        padding: 20px 0;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 85%;
+    }
+    .contact-form .send-button{
+        width: 90%;
+    }
+    .form-container h3{
+        text-align: center;
+    }
+    
+}
