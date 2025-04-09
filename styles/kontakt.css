@@ -62,7 +62,7 @@
     padding: 10px;
     font-size: 0.9rem;
     border-radius: 0.4rem;
-    background: red;
+    background: yellow;
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -73,7 +73,7 @@
 }
 
 .contact-form .send-button:hover {
-    background: rgb(255, 81, 81);
+    background: rgb(251, 248, 46);
     transition: 0.3s all linear;
 }
 
