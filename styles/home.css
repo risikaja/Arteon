@@ -5,6 +5,13 @@
 .bi-palette{
     color: orange;
 }
+
+.identifikohu{
+    text-decoration: none;
+    color: rgb(237, 162, 23);
+}
+
+
 /*Carousel section*/
 .carousel-caption h1, p {
     color: black;

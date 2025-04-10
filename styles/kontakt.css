@@ -1,3 +1,8 @@
+.identifikohu{
+    text-decoration: none;
+    color: rgb(237, 162, 23);
+  }
+
 /* Contact section */
 .google-map {
     display: flex;

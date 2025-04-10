@@ -143,6 +143,11 @@ h5 {
     text-decoration: none;
 }
 
+.identifikohu{
+    text-decoration: none;
+    color: rgb(237, 162, 23);
+  }
+
 
 
 @media (max-width: 1024px) {
