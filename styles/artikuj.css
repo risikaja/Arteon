@@ -1,0 +1,166 @@
+/* Hero section */
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/art\ imazh.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    color: #ffffff;
+}
+
+.banner {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-us {
+    padding: 0 10%;
+}
+
+.about-us-image {
+    float: right;
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
+}
+
+#about-us-page-2 {
+    float: left;
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.about-us-content {
+    font-family: "Lato", sans-serif;
+}
+
+.about-us-content h3 {
+    font-size: 43px;
+}
+
+.about-us-content h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-us-content p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.about-us-content li {
+    list-style: circle;
+    font-size: 20px;
+}
+/* Card section */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.custom-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    width: 300px; 
+    transition: transform 0.2s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-custom {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-content-custom {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title-custom {
+    font-family: "Patua One", serif;
+    font-size: 1em;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.card-description-custom {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    color: #555;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.card-button{
+    background-color: rgb(255, 174, 0);
+    border: none;
+    border-radius: 25px;
+    color: #000000;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.card-button:hover {
+    background-color: rgb(255, 191, 81);
+    border: none;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1024px) {
+    .card-wrapper {
+        justify-content: flex-start; 
+    }
+    
+    .custom-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .card-wrapper{
+        align-items: center;
+        justify-content: center;
+    }
+    .custom-card {
+        width: calc(100% - 20px); 
+    }
+}

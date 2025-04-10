@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arteon</title>
+    <link rel="icon" type="image/x-icon" href="./images/palette.svg" class="palette">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/artikuj.css">
+    <!--Google font linku-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <!--Google font roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar --> 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+        <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+        <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+      </svg>
+      <a class="navbar-brand" href="index.html">ARTEON</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="artikuj.html">Artikuj</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kategorite
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="artikuj.html">Teknologji</a></li>
+              <li><a class="dropdown-item" href="artikuj.html">Art</a></li>
+              <li><a class="dropdown-item" href="artikuj.html">Kulturë</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">Rreth nesh</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="faq.html">FAQ</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Kerko" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Kerko</button>
+          
+        </form>
+        <button class="btn btn-outline-warning" type="submit">Identifikohu</button>
+      </div>
+    </div>
+  </nav>
+
+  <!--Artikujt-->
+  <!--Hero section-->
+  <section class="hero">
+    <div class="banner">
+        <h1><span style="color: rgb(255, 242, 0);">Artikuj</span></h1>
+    </div>
+</section>
+<!--Blog section-->
+<section class="card-wrapper">
+    <!-- First Card -->
+     </div>
+     <div class="custom-card">
+        <img src="./images/lajmi 1.jpg" alt="Card image" class="card-img-custom">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                Ekspozita “Invictus” në vilën e ish-diktatorit
+            </h2>
+            <p class="card-description-custom">
+                Një ndër eventet ishte ekspozita “Invictus”, që paraqet perspektiva artistike vendore mbi të kaluarën diktatoriale të Shqipërisë. Përmes pikturave të Lume Blloshmit, fotografive të Kostandin Pogës dhe një përzgjedhjeje botimesh nga ish-të burgosurit politikë, publiku ftohet të ballafaqohet me tema të vuajtjes, kujtesës dhe rezistencës. Duke vendosur këto vepra brenda Vilës 31, ndërhyrja sfidon neutralitetin e saj, duke e shndërruar hapësirën në një vend reflektimi dhe dialogu.[...]
+            </p>
+            <a href="https://www.gazetatema.net/kulture/ekspozita-invictus-ne-vilen-e-ish-diktatorit-pikturat-e-lume-blloshmit-d-i488952"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+    </div>
+    <!-- Second Card -->
+    <div class="custom-card">
+        <img src="./images/lajmi 2.jpg" alt="Card image" class="card-img-custom">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                Vila 31 x Art Explora, Haddad: Tirana në platformat e mëdha
+            </h2>
+            <p class="card-description-custom">
+                Ministri francez për Evropën, Benjamin Haddad, e cilësoi me rëndësi të veçantë përurimin e projektit “Vila 31 x Art Explora” që synon të kthejë shtëpinë e një epoke të errët në një qendër arti dhe kulture, duke mirëpritur rezidentët e parë nga Franca, Tunizia, Libani, Malta, Italia e Shqipëria, talente të reja që do të jetojnë e krijojnë aty për disa muaj.
+
+                “Ky projekt sot e kalon përmasën kulturore dhe është shenjë emblematike e transformimit të Shqipërisë, ndaj jam i kënaqur që jam këtu”, tha Haddad[...]
+            </p>
+            <a href="https://www.gazetatema.net/kulture/vila-31-x-art-explora-haddad-tirana-ne-platformat-e-medha-kryesore-te-ar-i488938"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+        
+    </div>
+    <!-- Third Card -->
+    <div class="custom-card">
+        <img src="./images/lajmi 3.png" alt="Card image" class="card-img-custom">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                Shpallet thirrja për çmimin “Ardhje”, artisti fitues do të qëndrojë në New York
+            </h2>
+            <p class="card-description-custom">
+                Qendra për Artin Bashkëkohor ZETA shpalli thirrjen për çmimin “Ardhje 2025” dhe fton artistë të rinj (nën 35 vjeç), të dërgojnë aplikimet e tyre.
+Qendra ZETA organizon këtë çmim, në bashkëpunim me Residency Unlimited, institucioni i cili pret artistin fitues si rezident dymujor në New York, mbështetur nga fondacioni “The Trust for Mutual Understanding”.
+
+Çmimi “Ardhje” organizohet si një konkurs i përvitshëm, që ka për qëllim të nxisë krijimtarinë, ekspozimin dhe[...]
+            </p>
+            <a href="https://www.gazetatema.net/kulture/shpallet-thirrja-per-cmimin-ardhje-artisti-fitues-do-te-qendroje-dy-muaj-i488911"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+        
+    </div>
+    <!-- Fourth Card -->
+    <div class="custom-card">
+        <img src="./images/lajmi 4.png" class="card-img-custom" alt="Ahmet Zogu">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                64 vjet nga vdekja e Ahmet Zogut në Paris
+            </h2>
+            <p class="card-description-custom">
+                Më 9 prill të vitit 1961 ndërroi jetë në Paris, mbreti Zog.
+
+Në një sërë publikimesh monografike, të dhënat e gjurmueshme të prejardhjes së familjes Zog tregojnë se vendorigjina e pararendësve gjendej edhe më në veri, para zhvendosjes në Burgajet të Matit në fund të shekullit të XV-të.
+
+Ahmet Muhtar Zogolli, i biri i Xhemal Pash Zogut dhe i Sadie Emin bej Toptanit, u[...]
+            </p>
+            <a href="https://www.gazetatema.net/kulture/64-vjet-nga-vdekja-e-ahmet-zogut-ne-paris-i488904"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+    </div>
+    <!-- Fifth Card -->
+    <div class="custom-card">
+        <img src="./images/lajmi 5.jpg" alt="Card image" class="card-img-custom" style="height: 70%;">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                Aktivitete të shumta artistike dhe kulturore gjatë muajit prill
+            </h2>
+            <p class="card-description-custom">
+                Ministri i Ekonomisë, Kulturës dhe Inovacionit, Blendi Gonxhja, publikoi kalendarin e një sërë aktivitetesh kulturore e artistike që pritet të zhvillohen gjatë muajit prill.
+
+“Një mozaik emocionesh, ngjyrash dhe krijimtarie që merr jetë falë mbështetjes së Ministrisë së Ekonomisë, Kulturës dhe Inovacionit”, shprehet ministri Gonxhja.
+
+Aktivitetet e këtij muaji do të jenë të larmishme. Mes tyre do të ketë ekspozita, shfaqje filmash, punëtori, koncerte, prezantime botimesh të reja etj. [...]
+            </p>
+            <a href="https://www.gazetatema.net/kulture/aktivitete-te-shumta-artistike-dhe-kulturore-gjate-muajit-prill-i488838"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+    </div>
+    <!-- Sixth Card -->
+    <div class="custom-card">
+        <img src="./images/lajmi 6.png" alt="Card image" class="card-img-custom">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                Zgjidhe vetë topuzin
+            </h2>
+            <p class="card-description-custom">
+                Një publicist gati shprehte sot një ndjenjë faji, në faqen e vet në Substack, se po merrej me një temë relativisht triviale (eseja universitare), përballë gjërave “me rëndësi” që ndodhin sot në botë; fakti që po e thoshte këtë hapur, më bëri të mendoj se po i përgjigjej një lloj kritike, nga vetja ose të tjerët ose edhe opinioni publik, për gjërat që po vendoste të ndante me lexuesin. E kish fjalën mbase për turbullirat financiare globale dhe tarifat e Trump-it, ose për konfliktin izraelito-palestinez, ose për luftën mes Rusisë dhe Ukrainës; duke lënë të kuptojë se lexuesi priste prej tij një mendim ekspert për këto çështje, të cilin mendim ky nuk po ia jepte. Dhe meqë në Substack kam edhe unë një faqe, ku herë pas here postoj ese dhe skica të miat, me tema ndonjëherë edhe më triviale se eseja universitare, u ndieva edhe unë pak në faj, teksa dëgjova zërin që më qortoi se pse po merresha me punë arti dhe folklori [...]
+            </p>
+            <a href="https://www.gazetatema.net/kulture/zgjidhe-vete-topuzin-i488827"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+        
+    </div>
+    <!-- Seventh Card -->
+    <div class="custom-card">
+        <img src="./images/lajmi 7.jpg" alt="Card image" class="card-img-custom">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                “Muse” anulon koncertin në Stamboll 
+            </h2>
+            <p class="card-description-custom">
+                Grupi britanik i rock-ut, “Muse”, ka anuluar koncertin në Stamboll pasi protestuesit bënë thirrje për bojkot ndaj promovuesit të koncertit.
+
+Protestat në shkallë të gjerë antiqeveritare filluan muajin e kaluar – pas burgosjes së kryetarit të bashkisë së qytetit turk, Ekrem İmamoğlu – rivalit kryesor të presidentit Recep Tayyip Erdogan, më 19 mars pas akuzave për korrupsion, të cilat ai i ka mohuar.
+
+Mbështetësit e İmamoğlu dhe Partia Popullore Republikane (CHP) e opozitës së tij bënë thirrje për bojkotimin e kompanive që mbështesin qeverinë, duke përfshirë “DBL Entertainment” që do të organizonte koncertin e “Muse”.Kjo vjen pasi promovuesi i “DBL Entertainment”, Abdulkadir Özkan, i quajti aktet e protestuesve “tradhti”.Özkan më vonë ndau një postim në X duke pretenduar   [...]
+            </p>
+            <a href="https://www.gazetatema.net/kulture/muse-anulon-koncertin-ne-stamboll-protestuesit-bene-thirrje-per-bojkot-n-i488815"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+        
+    </div>
+    <!-- Eight Card -->
+    <div class="custom-card">
+        <img src="./images/lajmi 8.png" alt="Card image" class="card-img-custom">
+        <div class="card-content-custom">
+            <h2 class="card-title-custom">
+                52 vite nga vdekja e artistit të madh, Pablo Picasso
+            </h2>
+            <p class="card-description-custom">
+                Sot janë bërë 52 vite nga vdekja e piktorit të njohur, Pablo Ruiz Picasso, i cili ka vdekur në Mougins të Francës.
+
+Picasso ka qenë piktor, projektues grafik, skulptor spanjoll, dhe njihet si pioner i kubizmit. Ai konsiderohet si një nga artistët më të rëndësishëm të shekullit XX.
+
+Gjatë veprimtarisë së tij, Picasso ka punuar rreth 15 mijë piktura, grafika, vizatime, plastika dhe qeramika. Ndër veprat e tij më të njohura janë “Zonjushat e Avinjonit” dhe “Guernika”. Puna e tij ka qenë aq me peshë, aq sa ka edhe ndarje të periudhave kohore në bazë të asaj çka ka krijuar Picasso:
+
+Periudha blu 1901-1904
+
+
+Periudha rozë 1905-1907
+
+Periudha e influencës afrikane 1908-1909
+
+Periudha e kubizmit analitik 1909-1912 Periudha e  kubizmit sintetik 1912-1919 Picasso u martua dy herë dhe pati katër fëmijë me tre gra. Ai u lind më 25 tetor të vitit 1881 në Malaga.[...]
+            </p>
+             <a href="https://www.gazetatema.net/kulture/52-vite-nga-vdekja-e-artistit-te-madh-pablo-picasso-i488680"><button class="card-button">Lexo më shumë</button></a>
+        </div>
+        
+    </div>
+</section>
+
+  
+
+  <!--Footer-->
+  <footer class="py-1 container-fluid footer"> 
+      <div class="row d-flex justify-content-between">
+      <!-- Left section -->
+      <div class="col-6 col-md-2 mb-3">
+          <h5>Navigo</h5>
+          <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-body-secondary">Rreth nesh</a></li>
+          <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Kontakt</a></li>
+          <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">FAQ</a></li>
+          </ul>
+      </div>
+      <!--Kategorite-->
+      <div class="col-6 col-md-2 mb-3">
+          <h5>Kategorite</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="artikuj.html" class="nav-link p-0 text-body-secondary">Artikujt</a></li>
+            <li class="nav-item mb-2"><a href="artikuj.html" class="nav-link p-0 text-body-secondary">Teknologji</a></li>
+            <li class="nav-item mb-2"><a href="artikuj.html" class="nav-link p-0 text-body-secondary">Art</a></li>
+            <li class="nav-item mb-2"><a href="artikuj.html" class="nav-link p-0 text-body-secondary">Kulture</a></li>
+            </ul>
+      </div>
+      <!--Kontakto-->
+      <div class="col-6 col-md-2 mb-3">
+          <h5>Kontakto</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Linkedin</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">X</a></li>
+          </ul>
+      </div>
+      <!-- Right section -->
+      <div class="col-md-5 mb-3">
+        <form>
+          <h5>Regjistrohu në buletinin tonë</h5>
+          <p>Përmbledhje mujore e asaj që është e re dhe emocionuese nga ne.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Adresa e emailit</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Adresa e emailit">
+              <button class="btn btn-warning" type="button">Abonohu</button>
+          </div>
+          </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-center py-1  border-top">
+      <p>© 2025 Arteon, Inc. Të gjitha të drejtat e rezervuara.</p>
+    </div>
+  </footer>
+
+  <!--Bootstrap script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
